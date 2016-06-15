@@ -177,10 +177,20 @@ $$
 
 % Page 10, properties of malliavin calculus, con't
 \begin{frame}{Properties of Malliavin Calculus,con't}
-\textbf{Property 1}. Let $\phi: \mathbb{R}^n \rightarrow \mathbb{R}$ be a continuously differentiable function with partial derivatives and $F=(F_1,\ldots,F_n)$ a random vector whose components belong to $\mathbb{D}^{1,2}$. Then $\phi(F)\in \mathbb{D}^{1,2}$ and
+\textbf{Property 2}. Let $\{Y(t), t\geq 0\}$ be the associated first variation process of $X(t)$ and
 $$
-D_t \phi(F) = \sum_{i=1}^{n} \frac{\partial \phi}{\partial x_i} (F) D_t F_i, \qquad t\geq 0~a.s.
+dY(t) = b'(X(t))Y(t)dt + \sum_{i=1}^n \sigma_i'(X(t))Y(t) dW^i(t), \quad Y(0) = I_n
 $$
+where $I_n$ is the identity matrix of $\mathbb{R}^n$, primes denote derivatives and $\sigma_i$ is the
+$i$-th column vector of $\sigma$. Then the process $\{X(t), t\geq 0\}$ belongs to $\mathbb{D}^{1,2}$ and its Malliavin derivative is given by
+$$
+D_s X(t) = Y(t)Y^{-1}(s)\sigma(X(s)) 1_{\{s\leq t\}}, \quad s\geq 0~a.s.
+$$
+Hence, if $\psi\in C^1_b(\mathbb{R}^n)$ then we have
+\begin{eqnarray*}
+D_s \psi(X_T) &=& \nabla \psi(X_T)Y(T)Y^{-1}(s)\sigma(X(s)) 1_{\{s\leq T\}}, \quad s\geq 0~a.s. \\
+D_s \int_0^\infty \psi(X_t) dt &=& \int_s^T \nabla \psi(X_T)Y(T)Y^{-1}(s)\sigma(X(s)) dt \quad a.s. \\
+\end{eqnarray*}
 \end{frame}
 
 % Page 11, properties of malliavin calculus, con't
@@ -228,7 +238,7 @@ dY(t) &=& b'(X(t))Y(t)dt + \sum_{i=1}^n \sigma_i'(X(t)) Y(t) dW_i(t)
 
 \textbf{Assumption 3.1} The diffusion matrix  satisfies the uniform ellipticity condition
 $$
-\exists \epsilon >0, \xi^* \sigma^*(x)\sigma^(x)\xi \geq \epsilon |\xi|^2 \quad for~any~\xi,x \in \mathbb{R}^n
+\exists \epsilon >0, \xi^* \sigma^*(x)\sigma(x)\xi \geq \epsilon |\xi|^2 \quad for~any~\xi,x \in \mathbb{R}^n
 $$
 \end{frame}
 
@@ -247,9 +257,66 @@ $$
 $$
 \end{frame}
 
+% Page 15, Variation in the diffusion coefficient
+\begin{frame}{Variations in the diffusion coefficient}
+\textbf{Assumption 3.2}. The diffusion matrix  $\sigma+\epsilon\tilde{\sigma}$ satisfies the uniform ellipticity condition for any $\epsilon$
+$$
+\exists \eta >0, \xi^* (\sigma+\epsilon\tilde{\sigma})^*(x)(\sigma+\epsilon\tilde{\sigma})(x)\xi \geq \eta |\xi|^2 \quad for~any~\xi,x \in \mathbb{R}^n
+$$
+
+\textbf{Property 3.3}. Under Assumption 3.2, for any $a$ in $\tilde{\Gamma}_m$, we have
+$$
+\left.\frac{\partial}{\partial \epsilon} u^\epsilon (x)\right|_{\epsilon=0} = \mathbb{E}^x \left[ \phi(X(t_1),\ldots,X(t_m)) \delta(\sigma^{-1}(X)Y\tilde{\beta}_a(T))  \right]
+$$
+where
+$$
+\tilde{\beta}_a(t) = \sum_{i=1}^m a(t)(\beta(t_i) - \beta(t_{i-1})) \_{\{t_{i-1}\leq t \leq t_i \}}
+$$
+and where $\delta(\sigma^{-1}(X)Y\tilde{\beta}_a)(T)$ is the Skorohod integral of the anticipating process
+$$
+\{ \sigma^{-1}(X(t))Y(t)\tilde{\beta}_a(T); 0\leq t\leq T \}
+$$
+\end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Numerical Results}
+
+
+% Page 16, Greeks in European case
+\begin{frame}{Greeks in European case}
+Consider the European type payoff function under Black-Scholes framework
+\begin{eqnarray*}
+rho_{\tilde{r}(t)}  = & \mathbb{E}\left[ e^{-\int_0^T r(t)dt } \phi(S_T) \int_0^T \frac{\tilde{r}(t)}{\sigma S_t} dW_t \right]  \\
+ & -\mathbb{E}\left[ \int_0^T \tilde{r}(t)dt e^{-\int_0^T r(t)dt } \phi(S_T) \right]
+\end{eqnarray*}
+and
+\begin{eqnarray*}
+\frac{\partial u}{\partial x}(0,x) &=& \mathbb{E}\left[ e^{-\int_0^T r(t)dt } \phi(S_T)  \frac{W_T}{x\sigma T} \right] \\
+\frac{\partial^2 u}{\partial x^2}(0,x) &=& \mathbb{E}\left[ e^{-\int_0^T r(t)dt } \phi(S_T)  \frac{1}{x^2\sigma T} \left(\frac{W_T^2}{\sigma T}-W_T-\frac{1}{\sigma}\right) \right] \\
+\frac{\partial u}{\partial \sigma}(0,x) &=& \mathbb{E}\left[ e^{-\int_0^T r(t)dt } \phi(S_T)  \left(\frac{W_T^2}{\sigma T}-W_T-\frac{1}{\sigma}\right) \right]
+\end{eqnarray*}
+\end{frame}
+
+
+% Page 17, Greeks in Asian case
+\begin{frame}{Greeks in Asian case}
+Consider the payoff function of the form $\phi(\int_0^T S_t dt)$ (Asian option)
+$$
+\frac{\partial u}{\partial x}(0,x) = \mathbb{E}\left[ e^{-\int_0^T r(t)dt } \phi(\int_0^T S_t dt)  \left( \frac{2}{x\sigma} \frac{\int_0^T Y_t dW_t}{\int_0^T Y_t dt} + \frac{1}{x}\right) \right]
+$$
+
+Consider the payoff function of the form $\phi(S_T,\int_0^T S_t dt)$ (Asian barrier in option)
+$$
+\frac{\partial u}{\partial x}(0,x) = \mathbb{E}\left[ e^{-\int_0^T r(t)dt } \phi\left(S_T,\int_0^T S_t dt\right) \delta(G) \right]
+$$
+where $G$ is the random process
+$$
+G(s) = (a + \alpha s) \frac{Y_s}{\sigma S_s} + (b+\beta s) \frac{2Y_s^2}{\sigma S_s \int_0^T S_u du}
+$$
+\end{frame}
+
+
 \begin{frame}
   \begin{figure}
   \centering

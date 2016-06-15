@@ -3,6 +3,6 @@
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@sectionintoc {2}{Malliavin Calculus in Finance}{8}{0}{2}
 \beamer@sectionintoc {3}{Greeks Calculation with Malliavin}{13}{0}{3}
-\beamer@sectionintoc {4}{Numerical Results}{15}{0}{4}
-\beamer@sectionintoc {5}{Summary}{23}{0}{5}
-\beamer@sectionintoc {6}{Reference}{23}{0}{6}
+\beamer@sectionintoc {4}{Numerical Results}{16}{0}{4}
+\beamer@sectionintoc {5}{Summary}{26}{0}{5}
+\beamer@sectionintoc {6}{Reference}{26}{0}{6}

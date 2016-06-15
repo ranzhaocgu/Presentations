@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.2)  12 JUN 2016 19:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.2)  13 JUN 2016 15:19
 entering extended mode
 **pre_malliavin_mc.tex
 
@@ -1451,59 +1451,34 @@ Overfull \hbox (33.67986pt too wide) has occurred while \output is active
 
 [14
 
-] <fig1_fournie_99_malliavin_mc.png, id=151, 787.44188pt x 590.205pt>
-File: fig1_fournie_99_malliavin_mc.png Graphic file (type png)
-
-<use fig1_fournie_99_malliavin_mc.png>
-Package pdftex.def Info: fig1_fournie_99_malliavin_mc.png used on input line 26
-0.
-(pdftex.def)             Requested size: 236.23438pt x 177.06287pt.
-
+]
 Overfull \hbox (33.67986pt too wide) has occurred while \output is active
  [][]  
  []
 
 [15
 
-] <fig2_fournie_99_malliavin_mc.png, id=159, 785.18344pt x 595.47469pt>
-File: fig2_fournie_99_malliavin_mc.png Graphic file (type png)
-
-<use fig2_fournie_99_malliavin_mc.png>
-Package pdftex.def Info: fig2_fournie_99_malliavin_mc.png used on input line 26
-9.
-(pdftex.def)             Requested size: 235.55685pt x 178.64377pt.
-
+]
 Overfull \hbox (33.67986pt too wide) has occurred while \output is active
  [][]  
  []
 
 [16
 
- <C:/Users/ranzhao/Documents/Presentations/Malliavin Calculus and MC/fig1_fourn
-ie_99_malliavin_mc.png>]
-<fig3_fournie_99_malliavin_mc.png, id=166, 773.13844pt x 590.205pt>
-File: fig3_fournie_99_malliavin_mc.png Graphic file (type png)
-
-<use fig3_fournie_99_malliavin_mc.png>
-Package pdftex.def Info: fig3_fournie_99_malliavin_mc.png used on input line 27
-8.
-(pdftex.def)             Requested size: 231.94333pt x 177.06287pt.
-
+]
 Overfull \hbox (33.67986pt too wide) has occurred while \output is active
  [][]  
  []
 
 [17
 
- <C:/Users/ranzhao/Documents/Presentations/Malliavin Calculus and MC/fig2_fourn
-ie_99_malliavin_mc.png>]
-<fig4_fournie_99_malliavin_mc.png, id=174, 775.39688pt x 590.95781pt>
-File: fig4_fournie_99_malliavin_mc.png Graphic file (type png)
+] <fig1_fournie_99_malliavin_mc.png, id=169, 787.44188pt x 590.205pt>
+File: fig1_fournie_99_malliavin_mc.png Graphic file (type png)
 
-<use fig4_fournie_99_malliavin_mc.png>
-Package pdftex.def Info: fig4_fournie_99_malliavin_mc.png used on input line 28
+<use fig1_fournie_99_malliavin_mc.png>
+Package pdftex.def Info: fig1_fournie_99_malliavin_mc.png used on input line 32
 7.
-(pdftex.def)             Requested size: 232.62085pt x 177.2887pt.
+(pdftex.def)             Requested size: 236.23438pt x 177.06287pt.
 
 Overfull \hbox (33.67986pt too wide) has occurred while \output is active
  [][]  
@@ -1511,15 +1486,13 @@ Overfull \hbox (33.67986pt too wide) has occurred while \output is active
 
 [18
 
- <C:/Users/ranzhao/Documents/Presentations/Malliavin Calculus and MC/fig3_fourn
-ie_99_malliavin_mc.png>]
-<fig5_fournie_99_malliavin_mc.png, id=182, 780.66656pt x 598.48593pt>
-File: fig5_fournie_99_malliavin_mc.png Graphic file (type png)
+] <fig2_fournie_99_malliavin_mc.png, id=177, 785.18344pt x 595.47469pt>
+File: fig2_fournie_99_malliavin_mc.png Graphic file (type png)
 
-<use fig5_fournie_99_malliavin_mc.png>
-Package pdftex.def Info: fig5_fournie_99_malliavin_mc.png used on input line 29
+<use fig2_fournie_99_malliavin_mc.png>
+Package pdftex.def Info: fig2_fournie_99_malliavin_mc.png used on input line 33
 6.
-(pdftex.def)             Requested size: 234.20177pt x 179.54716pt.
+(pdftex.def)             Requested size: 235.55685pt x 178.64377pt.
 
 Overfull \hbox (33.67986pt too wide) has occurred while \output is active
  [][]  
@@ -1527,15 +1500,15 @@ Overfull \hbox (33.67986pt too wide) has occurred while \output is active
 
 [19
 
- <C:/Users/ranzhao/Documents/Presentations/Malliavin Calculus and MC/fig4_fourn
+ <C:/Users/ranzhao/Documents/Presentations/Malliavin Calculus and MC/fig1_fourn
 ie_99_malliavin_mc.png>]
-<fig6_fournie_99_malliavin_mc.png, id=190, 780.66656pt x 635.37375pt>
-File: fig6_fournie_99_malliavin_mc.png Graphic file (type png)
+<fig3_fournie_99_malliavin_mc.png, id=185, 773.13844pt x 590.205pt>
+File: fig3_fournie_99_malliavin_mc.png Graphic file (type png)
 
-<use fig6_fournie_99_malliavin_mc.png>
-Package pdftex.def Info: fig6_fournie_99_malliavin_mc.png used on input line 30
+<use fig3_fournie_99_malliavin_mc.png>
+Package pdftex.def Info: fig3_fournie_99_malliavin_mc.png used on input line 34
 5.
-(pdftex.def)             Requested size: 234.20177pt x 190.61359pt.
+(pdftex.def)             Requested size: 231.94333pt x 177.06287pt.
 
 Overfull \hbox (33.67986pt too wide) has occurred while \output is active
  [][]  
@@ -1543,15 +1516,15 @@ Overfull \hbox (33.67986pt too wide) has occurred while \output is active
 
 [20
 
- <C:/Users/ranzhao/Documents/Presentations/Malliavin Calculus and MC/fig5_fourn
+ <C:/Users/ranzhao/Documents/Presentations/Malliavin Calculus and MC/fig2_fourn
 ie_99_malliavin_mc.png>]
-<fig7_fournie_99_malliavin_mc.png, id=199, 767.86874pt x 609.77812pt>
-File: fig7_fournie_99_malliavin_mc.png Graphic file (type png)
+<fig4_fournie_99_malliavin_mc.png, id=194, 775.39688pt x 590.95781pt>
+File: fig4_fournie_99_malliavin_mc.png Graphic file (type png)
 
-<use fig7_fournie_99_malliavin_mc.png>
-Package pdftex.def Info: fig7_fournie_99_malliavin_mc.png used on input line 31
+<use fig4_fournie_99_malliavin_mc.png>
+Package pdftex.def Info: fig4_fournie_99_malliavin_mc.png used on input line 35
 4.
-(pdftex.def)             Requested size: 230.3624pt x 182.93484pt.
+(pdftex.def)             Requested size: 232.62085pt x 177.2887pt.
 
 Overfull \hbox (33.67986pt too wide) has occurred while \output is active
  [][]  
@@ -1559,15 +1532,15 @@ Overfull \hbox (33.67986pt too wide) has occurred while \output is active
 
 [21
 
- <C:/Users/ranzhao/Documents/Presentations/Malliavin Calculus and MC/fig6_fourn
+ <C:/Users/ranzhao/Documents/Presentations/Malliavin Calculus and MC/fig3_fourn
 ie_99_malliavin_mc.png>]
-<fig8_fournie_99_malliavin_mc.png, id=207, 772.38562pt x 614.295pt>
-File: fig8_fournie_99_malliavin_mc.png Graphic file (type png)
+<fig5_fournie_99_malliavin_mc.png, id=202, 780.66656pt x 598.48593pt>
+File: fig5_fournie_99_malliavin_mc.png Graphic file (type png)
 
-<use fig8_fournie_99_malliavin_mc.png>
-Package pdftex.def Info: fig8_fournie_99_malliavin_mc.png used on input line 32
+<use fig5_fournie_99_malliavin_mc.png>
+Package pdftex.def Info: fig5_fournie_99_malliavin_mc.png used on input line 36
 3.
-(pdftex.def)             Requested size: 231.71747pt x 184.28992pt.
+(pdftex.def)             Requested size: 234.20177pt x 179.54716pt.
 
 Overfull \hbox (33.67986pt too wide) has occurred while \output is active
  [][]  
@@ -1575,13 +1548,15 @@ Overfull \hbox (33.67986pt too wide) has occurred while \output is active
 
 [22
 
- <C:/Users/ranzhao/Documents/Presentations/Malliavin Calculus and MC/fig7_fourn
-ie_99_malliavin_mc.png>] <reference.png, id=215, 776.9025pt x 555.57562pt>
-File: reference.png Graphic file (type png)
+ <C:/Users/ranzhao/Documents/Presentations/Malliavin Calculus and MC/fig4_fourn
+ie_99_malliavin_mc.png>]
+<fig6_fournie_99_malliavin_mc.png, id=210, 780.66656pt x 635.37375pt>
+File: fig6_fournie_99_malliavin_mc.png Graphic file (type png)
 
-<use reference.png>
-Package pdftex.def Info: reference.png used on input line 340.
-(pdftex.def)             Requested size: 233.07254pt x 166.67397pt.
+<use fig6_fournie_99_malliavin_mc.png>
+Package pdftex.def Info: fig6_fournie_99_malliavin_mc.png used on input line 37
+2.
+(pdftex.def)             Requested size: 234.20177pt x 190.61359pt.
 
 Overfull \hbox (33.67986pt too wide) has occurred while \output is active
  [][]  
@@ -1589,22 +1564,68 @@ Overfull \hbox (33.67986pt too wide) has occurred while \output is active
 
 [23
 
+ <C:/Users/ranzhao/Documents/Presentations/Malliavin Calculus and MC/fig5_fourn
+ie_99_malliavin_mc.png>]
+<fig7_fournie_99_malliavin_mc.png, id=218, 767.86874pt x 609.77812pt>
+File: fig7_fournie_99_malliavin_mc.png Graphic file (type png)
+
+<use fig7_fournie_99_malliavin_mc.png>
+Package pdftex.def Info: fig7_fournie_99_malliavin_mc.png used on input line 38
+1.
+(pdftex.def)             Requested size: 230.3624pt x 182.93484pt.
+
+Overfull \hbox (33.67986pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[24
+
+ <C:/Users/ranzhao/Documents/Presentations/Malliavin Calculus and MC/fig6_fourn
+ie_99_malliavin_mc.png>]
+<fig8_fournie_99_malliavin_mc.png, id=226, 772.38562pt x 614.295pt>
+File: fig8_fournie_99_malliavin_mc.png Graphic file (type png)
+
+<use fig8_fournie_99_malliavin_mc.png>
+Package pdftex.def Info: fig8_fournie_99_malliavin_mc.png used on input line 39
+0.
+(pdftex.def)             Requested size: 231.71747pt x 184.28992pt.
+
+Overfull \hbox (33.67986pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[25
+
+ <C:/Users/ranzhao/Documents/Presentations/Malliavin Calculus and MC/fig7_fourn
+ie_99_malliavin_mc.png>] <reference.png, id=234, 776.9025pt x 555.57562pt>
+File: reference.png Graphic file (type png)
+
+<use reference.png>
+Package pdftex.def Info: reference.png used on input line 407.
+(pdftex.def)             Requested size: 233.07254pt x 166.67397pt.
+
+Overfull \hbox (33.67986pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[26
+
  <C:/Users/ranzhao/Documents/Presentations/Malliavin Calculus and MC/fig8_fourn
 ie_99_malliavin_mc.png>]
 \tf@nav=\write7
 \tf@toc=\write8
 \tf@snm=\write9
- [24
+ [27
 
  <C:/Users/ranzhao/Documents/Presentations/Malliavin Calculus and MC/reference.
 png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 343.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 343.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 410.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 410.
 
 ("C:\Users\ranzhao\Documents\Presentations\Malliavin Calculus and MC\pre_mallia
 vin_mc.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 343.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 343.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 410.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 410.
 Package rerunfilecheck Info: File `pre_malliavin_mc.out' has not changed.
 (rerunfilecheck)             Checksum: E7D90E01530B1F56EBE3A61FDBCB49DA;323.
 
@@ -1612,31 +1633,32 @@ Package rerunfilecheck Info: File `pre_malliavin_mc.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 343.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 410.
  ) 
 Here is how much of TeX's memory you used:
- 29889 strings out of 493921
- 608041 string characters out of 3144871
- 687046 words of memory out of 3000000
- 32578 multiletter control sequences out of 15000+200000
+ 29902 strings out of 493921
+ 608164 string characters out of 3144871
+ 691046 words of memory out of 3000000
+ 32585 multiletter control sequences out of 15000+200000
  10190 words of font info for 39 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  58i,18n,69p,10358b,650s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on pre_malliavin_mc.pdf (23 pages, 629625 bytes).
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on pre_malliavin_mc.pdf (26 pages, 653266 bytes).
 PDF statistics:
- 280 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
+ 304 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
  172 words of extra memory for PDF output out of 10000 (max. 10000000)
 
